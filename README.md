@@ -1,3 +1,9 @@
+# Fork of SfMLearner
+This fork is of SfMLearner, nothing changed with it but includes a `setup.py` file so the repo can be installed via pip using the command:
+```
+pip install -e git+https://github.com/topher097/SfMLearner_installable.git#egg=SfMLearner
+```
+
 # SfMLearner
 This codebase implements the system described in the paper:
 
