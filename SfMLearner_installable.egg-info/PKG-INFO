@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: SfMLearner-installable
-Version: 1.0.0
+Version: 1.0.1
 Summary: Fork of the original SfMLearner with a setup.py file for installation with pip.
 Home-page: https://github.com/topher097/SfMLearner_installable
 Author: Christopher Endres
@@ -20,7 +20,7 @@ License-File: LICENSE
 # Fork of SfMLearner
 This fork is of SfMLearner, nothing changed with it but includes a `setup.py` file so the repo can be installed via pip using the command:
 ```
-pip install -e git+https://github.com/topher097/SfMLearner_installable.git#egg=SfMLearner
+pip install SfMLearner-installable
 ```
 
 # SfMLearner

@@ -18,17 +18,17 @@ URL = 'https://github.com/topher097/SfMLearner_installable'
 EMAIL = 'cmendres400@gmail.com'
 AUTHOR = 'Christopher Endres'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'joblib == 1.2.0', 
-    'matplotlib == 3.7.1', 
+    'joblib >= 1.2.0', 
+    'matplotlib >= 3.7.1', 
     'numpy' , 
-    'Pillow == 9.5.0',
-    'scipy == 1.10.1',
-    'setuptools == 65.5.0',
-    'tensorflow == 2.12.0'
+    'Pillow >= 9.5.0',
+    'scipy >= 1.10.1',
+    'setuptools >= 65.5.0',
+    'tensorflow >= 1.12.0'
 ]
 
 EXTRAS = {}
