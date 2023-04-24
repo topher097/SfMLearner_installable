@@ -24,7 +24,7 @@ VERSION = '1.0.0'
 REQUIRED = [
     'joblib == 1.2.0', 
     'matplotlib == 3.7.1', 
-    'numpy == 1.24.3' , 
+    'numpy' , 
     'Pillow == 9.5.0',
     'scipy == 1.10.1',
     'setuptools == 65.5.0',
